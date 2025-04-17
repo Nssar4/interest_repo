@@ -1,6 +1,5 @@
 name: firstscreen
-description: A new Flutter project.
-
+descreption: A new Flutter project
 version: 1.0.0+1
 
 environment:
@@ -9,7 +8,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  image_picker: ^1.0.4
+  google_fonts: ^6.1.0
+  blur: ^3.1.0
+  google_maps_flutter: ^2.5.5
+  geolocator: ^9.0.2
+  permission_handler: ^10.4.3
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,9 +23,130 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/Fashion.png
+    - assets/Health & Fitness.png
+    - assets/Food & Beverage.png
+    - assets/bubble.png
+    - assets/bubble 3.png
+    - assets/bubble 2.png
+    - assets/profile.png
+    - assets/Food Truck.png
+    - assets/Fashion.png
+    - assets/Beauty.png
+    - assets/Health.png
+    - assets/image.png
+    - assets/image (2).png
+    - assets/image (3).png
+
+    - assets/image (4).png
+    - assets/image (5).png
+    - assets/image (6).png
+    - assets/image (7).png
+    - assets/image (8).png
+    - assets/image (9).png
+    - assets/image (10).png
+    - assets/image (11).png
+    - assets/image (12).png
+    - assets/image (13).png
+    - assets/image (14).png
+    - assets/image (15).png
+    - assets/image (16).png
+    - assets/image (17).png
+    - assets/image (18).png
+    - assets/image (19).png
+    - assets/image (20).png
+    - assets/Food Truck (2).png
+    - assets/Beauty (2).png
+    - assets/Fashion (2).png
+    - assets/image (21).png
+    - assets/image (22).png
+
+    - assets/image (23).png
+
+    - assets/image (24).png
+
+    - assets/image (25).png
+
+    - assets/image (26).png
+    - assets/image (27).png
+    - assets/image (28).png
+    - assets/image (29).png
+
+    - assets/image (30).png
+
+    - assets/image (31).png
+
+    - assets/image (32).png
+
+    - assets/image (33).png
+    - assets/image (34).png
+
+
+
+    - assets/image (35).png
+    - assets/image (36).png
+
+    - assets/image (37).png
+
+    - assets/image (38).png
+
+    - assets/image (39).png
+
+    - assets/image (40).png
+    - assets/image (41).png
+    - assets/image (42).png
+    - assets/image (43).png
+
+    - assets/image (44).png
+
+    - assets/image (45).png
+
+    - assets/image (46).png
+
+    - assets/image (47).png
+    - assets/image (48).png
+
+    - assets/image (49).png
+    - assets/image (50).png
+
+    - assets/image (51).png
+
+    - assets/image (52).png
+
+    - assets/image (53).png
+
+    - assets/image (54).png
+    - assets/image (55).png
+    - assets/image (56).png
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
   # fonts:
   #   - family: Schyler
   #     fonts:

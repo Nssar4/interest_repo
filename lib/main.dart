@@ -1,43 +1,33 @@
+// main.dart
 import 'package:flutter/material.dart';
+import 'interests_screen.dart';
+import 'home_screen.dart';
+import 'save_screen.dart';
+import 'community_screen.dart';
+import 'reels_screen.dart';
+import 'dashboard_screen.dart';
+import 'profile_screen.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // Application name
-      title: 'Flutter Hello World',
-      // Application theme data, you can set the colors for the application as
-      // you want
-      theme: ThemeData(
-        // useMaterial3: false,
-        primarySwatch: Colors.blue,
-      ),
-      // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({super.key, required this.title});  
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
-        ),
-      ),
+      title: 'My App',
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (ctx) => InterestsScreen(),
+        '/home': (ctx) => HomeScreen(),
+        '/saved': (ctx) => SaveScreen(savedItems: []),
+        '/community': (ctx) => CommunityScreen(),
+        '/reels': (ctx) => ReelsScreen(),
+        '/dashboard': (ctx) => DashboardScreen(),
+        '/profile': (ctx) => ProfileScreen(),
+      },
     );
   }
 }
